@@ -2,6 +2,7 @@
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using ArenaV2.Api.Logging;
 
 namespace ArenaV2.Logging {
     internal class ConsoleLogWriter : AsyncLogWriter {

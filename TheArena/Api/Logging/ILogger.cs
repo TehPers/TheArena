@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ArenaV2.Logging {
+namespace ArenaV2.Api.Logging {
     public interface ILogger {
         /// <summary>Logs a message, writing it to each <see cref="ILogWriter"/>.</summary>
         /// <param name="message">The message to log.</param>

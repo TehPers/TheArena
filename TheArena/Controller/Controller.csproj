@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ArenaV2.Controller</AssemblyName>
+    <RootNamespace>ArenaV2.Controller</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api\Api.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
+using ArenaV2.Api.Logging;
 using Ninject;
 
 namespace ArenaV2.Logging {

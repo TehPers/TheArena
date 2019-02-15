@@ -1,7 +1,6 @@
 ﻿using System;
-using Ninject;
 
-namespace ArenaV2.Logging {
+namespace ArenaV2.Api.Logging {
     public interface ILogWriter {
         /// <summary>Writes a log message to some form of output.</summary>
         /// <param name="message">The message to write.</param>

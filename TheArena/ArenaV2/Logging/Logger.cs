@@ -1,4 +1,5 @@
 ﻿using System;
+using ArenaV2.Api.Logging;
 
 namespace ArenaV2.Logging {
     public class Logger : ILogger {

@@ -1,9 +1,8 @@
 ﻿using System.Diagnostics;
 using Ninject.Modules;
 
-namespace ArenaV2.Modules {
+namespace ArenaV2.Api.Bindings {
     public abstract class ConfiguredModule : NinjectModule {
-
         public override void Load() {
             this.LoadShared();
             this.LoadDebug();

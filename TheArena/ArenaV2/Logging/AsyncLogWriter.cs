@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
+using ArenaV2.Api.Logging;
 
 namespace ArenaV2.Logging {
     internal abstract class AsyncLogWriter : ILogWriter, IDisposable {

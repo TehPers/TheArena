@@ -1,7 +1,9 @@
 ﻿using System.IO;
+using ArenaV2.Api.Bindings;
+using ArenaV2.Api.Logging;
 using ArenaV2.Logging;
 
-namespace ArenaV2.Modules {
+namespace ArenaV2.Bindings {
     public sealed class LoggingModule : ConfiguredModule {
 
         protected override void LoadShared() {

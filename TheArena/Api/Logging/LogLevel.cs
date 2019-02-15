@@ -1,4 +1,4 @@
-﻿namespace ArenaV2.Logging {
+﻿namespace ArenaV2.Api.Logging {
     public enum LogLevel {
         /// <summary>For messages intended to trace which line of code the program is on and what the state of the program is.</summary>
         Trace,
