@@ -11,10 +11,6 @@ using NDesk.Options;
 using Ninject;
 
 namespace ArenaV2 {
-    internal class ArenaKernel : StandardKernel {
-
-    }
-
     internal class Program {
 #if DEBUG
         private const bool DEBUG = true;
